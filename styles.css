@@ -248,7 +248,7 @@ header h1 {
 }
 
 header p {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
@@ -292,6 +292,7 @@ nav {
     font-size: 1rem;
     color: var(--black);
     padding: 0.8rem 1rem;
+    text-transform: uppercase;
 }
 
 #menu-toggle input:checked~ul {
@@ -345,16 +346,14 @@ nav {
 }
 
 #plan div section {
-    grid-row: 2;
     display: flex;
-    width: 300px;
-    height: 300px;
-    grid-column: 1;
+    width: 400px;
+    height: 400px;
     border-radius: 10px;
     margin-bottom: 10px;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     background-color: var(--teal);
     border: 2px solid var(--white);
 }
@@ -362,6 +361,7 @@ nav {
 #plan div section h4 {
     text-align: center;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 #plan div section img {
@@ -371,9 +371,9 @@ nav {
 
 /* ----- TESTIMONIALS STYLES ----- */
 #testimonials h3 {
+    margin-top: 20px;
     text-align: left;
     margin-left: 20px;
-    margin-top: 20px;
 }
 
 #testimonials section {
@@ -388,6 +388,7 @@ nav {
 
 #testimonials h4 {
     margin-top: 10px;
+    text-transform: uppercase;
 }
 
 #testimonials p,
@@ -436,6 +437,7 @@ nav {
 
 #about h4 {
     font-size: 20px;
+    text-transform: uppercase;
 }
 
 #about img {
@@ -467,9 +469,10 @@ nav {
 
 #contact label {
     display: flex;
-    align-items: center;
     font-size: 20px;
     font-weight: 600;
+    align-items: center;
+    text-transform: uppercase;
 }
 
 #contact legend {
@@ -565,6 +568,7 @@ input[type="submit"] {
     font-size: 16px;
     margin-bottom: 20px;
     color: var(--white);
+    text-transform: uppercase;
     background-color: var(--purple);
 }
 
@@ -770,6 +774,8 @@ footer a {
         box-sizing: border-box;
         border: 1px solid var(--white);
     }
+
+
 
     #about {
         padding-left: 50px;
